@@ -34,7 +34,7 @@ Entity.addEffect(chair,MobEffect.movementSlowdown,30*99999999999,9999999999,fals
 function entityAddedHook(entity){
 if(Entity.getEntityTypeId(entity)==15)
 {
-chair=entity; //specifies what it chair
+chair=entity; //specifies what is chair
 }}
 
 function modTick(){
